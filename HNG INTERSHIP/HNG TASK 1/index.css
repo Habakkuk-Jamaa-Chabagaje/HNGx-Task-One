@@ -16,7 +16,7 @@ body{
 }
 
 .main{ 
-    box-shadow: 10px 10px black;
+    box-shadow: 2px 1px purple;
     padding-bottom: 2vw;
     margin-top: 5vw;
     border-radius: 20px;
@@ -28,7 +28,7 @@ body{
 }
 
 h1{ 
-    text-shadow: 3px 2px purple;
+    text-shadow: 1px 1px purple;
     padding-top: 2vw;
     font-size: 2.9vw;
     font-weight: 11vw;
@@ -77,4 +77,77 @@ padding: 0.3vw;
 width: 12.90vw;
 margin-left: 35%;
 background-color: black;
+}
+
+
+@media screen and (min-width:150px) {
+   .main{
+
+    box-shadow: 2px 1px purple;
+    padding-bottom: 2vw;
+    margin-top: 5vw;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: #002A38;
+    width: 70%; 
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    font-size: 20px;
+    font-weight:20px;    
+     
+
+   }
+
+
+   a{
+
+    font-size: 20px;
+    font-weight: 20px;
+    text-decoration: none;
+    color: blue;
+    
+}
+
+
+#currentDay{
+    margin-top: 20vw;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 20px;
+}
+ 
+
+span{
+    font-weight: 20px;
+    font-size: 20px;
+   
+}
+
+
+h1{ width: 95%;
+    text-shadow: 1px 1px purple;
+    padding-top: 2vw;
+    font-size: 20px;
+    font-weight: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 3vw;
+}
+
+
+.time{ 
+     width: 30vw;
+    /* border: 1px solid white; 
+    border-radius: 5px; */
+    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* background-color: black; */
+}
+    
+
 }
