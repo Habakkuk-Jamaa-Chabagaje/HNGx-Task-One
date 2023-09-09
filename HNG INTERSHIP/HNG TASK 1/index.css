@@ -6,6 +6,7 @@
 }
 
 body{
+    
     color: white;
     background-color: rgba(68, 9, 48, 0.262);
 }
@@ -16,6 +17,7 @@ body{
 }
 
 .main{ 
+    
     box-shadow: 2px 1px purple;
     padding-bottom: 2vw;
     margin-top: 5vw;
@@ -50,9 +52,9 @@ span{
 }
 
 a{
+
     font-size: 2vw;
-    font-weight: 2vw;
-    padding-bottom: 3vw;
+    font-weight: 3vw;
     text-decoration: none;
     color: blue;
     
@@ -76,11 +78,11 @@ border-radius: 5px;
 padding: 0.3vw;
 width: 12.90vw;
 margin-left: 35%;
-background-color: black;
+ /* background-color: black;  */
 }
 
 
-@media screen and (min-width:150px) {
+@media screen and (max-width:800px) {
    .main{
 
     box-shadow: 2px 1px purple;
@@ -126,10 +128,10 @@ span{
 }
 
 
-h1{ width: 95%;
+h1{ width: 70vw;
     text-shadow: 1px 1px purple;
     padding-top: 2vw;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -139,7 +141,7 @@ h1{ width: 95%;
 
 
 .time{ 
-     width: 30vw;
+     width: 0vw;
     /* border: 1px solid white; 
     border-radius: 5px; */
     padding: 3px;
