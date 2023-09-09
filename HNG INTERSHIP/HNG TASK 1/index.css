@@ -77,12 +77,12 @@ padding: 0.3vw;
 border-radius: 5px;
 padding: 0.3vw;
 width: 12.90vw;
-margin-left: 35%;
+margin: auto;
  /* background-color: black;  */
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:750px) {
    .main{
 
     box-shadow: 2px 1px purple;
@@ -92,6 +92,7 @@ margin-left: 35%;
     text-align: center;
     justify-content: center;
     background-color: #002A38;
+    
     width: 70%; 
     margin-left:auto;
     margin-right: auto;
@@ -141,15 +142,16 @@ h1{ width: 70vw;
 
 
 .time{ 
-     width: 0vw;
-    /* border: 1px solid white; 
-    border-radius: 5px; */
-    padding: 3px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    /* background-color: black; */
-}
     
+     width: fit-content;
+     
+     
+      /* border: 1px solid white;  */
+    /* border-radius: 5px; 
+    padding: 3px; */
+    
+    
+
+
 
 }
