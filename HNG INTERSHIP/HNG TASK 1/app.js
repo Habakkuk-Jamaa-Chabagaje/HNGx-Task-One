@@ -30,22 +30,11 @@ function displayTime() {
     const hour = timer.getUTCHours();
 
     const timeNow = ` Time ${hour}:${minutes}:${seconds}`;
-    timeEl.innerHTML = timeNow;
+    const timerMillisec = Date.now();
+    timeEl.innerHTML = timerMillisec;
+    // timeEl.innerHTML = timeNow;
     timeView();
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
